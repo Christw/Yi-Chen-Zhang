@@ -11453,8 +11453,6 @@ section.resume-section .resume-section-content {
   padding-left: 0;
 }
 
-
-/* CSS */
 .button-1 {
   align-items: center;
   background-color: #bd5d38;
@@ -11511,4 +11509,18 @@ section.resume-section .resume-section-content {
 
 td,a{
   text-decoration: none;
+}
+
+.button-2 {
+  padding: .75em;
+  border: 1px #ddd solid;
+  background: linear-gradient(to right, #bd5d382b, #ffffff82);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s 0s;
+  border-radius: 55px;
+}
+
+.button-2:hover {
+  background-size: 100% 100%;
 }
