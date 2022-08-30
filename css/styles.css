@@ -5533,7 +5533,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 130%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -11524,3 +11524,56 @@ td,a{
 .button-2:hover {
   background-size: 100% 100%;
 }
+
+.close{
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+.btn2{
+  background-color: transparent;
+  color: #bd5d38;
+  border: none;
+  padding: 0px;
+}
+
+.btn2:hover{
+    color: #974a2d;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .modal-content{
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .modal-content{
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .modal-content{
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .modal-content{
+    width: 110%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .modal-content{
+    width: 130%;
+  }
+}
+
