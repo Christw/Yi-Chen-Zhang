@@ -5525,6 +5525,7 @@ textarea.form-control-lg {
 
 .modal-dialog-centered {
   display: flex;
+  justify-content: center;
   align-items: center;
   min-height: calc(100% - 1rem);
 }
@@ -5601,7 +5602,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 594px;
     margin: 1.75rem auto;
   }
 
